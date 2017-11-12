@@ -17,11 +17,13 @@ public class Bedroom {
         this.lamp = lamp;
         this.bed = bed;
         this.name =name;
-
+        BedroomInProgress();
     }
 public void BedroomInProgress()
 {
-    this.lamp.lampReady();
 
+    this.bed.BedContructor();
+    this.lamp.lampReady();
 }
+
 }

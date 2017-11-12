@@ -22,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bedroom.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bedroom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pulkit/composition2/Bedroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="392">
+              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -46,20 +46,20 @@
         <entry file="file://$PROJECT_DIR$/src/com/pulkit/composition2/Wall.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bed.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Bed.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pulkit/composition2/Bed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+            <state relative-caret-position="88">
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -82,11 +82,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/pulkit/composition2/Main.java" />
         <option value="$PROJECT_DIR$/src/com/pulkit/composition2/Lamp.java" />
+        <option value="$PROJECT_DIR$/src/com/pulkit/composition2/Bed.java" />
+        <option value="$PROJECT_DIR$/src/com/pulkit/composition2/Main.java" />
         <option value="$PROJECT_DIR$/src/com/pulkit/composition2/Bedroom.java" />
         <option value="$PROJECT_DIR$/src/com/pulkit/composition2/Wall.java" />
-        <option value="$PROJECT_DIR$/src/com/pulkit/composition2/Bed.java" />
       </list>
     </option>
   </component>
@@ -250,14 +250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pulkit/composition2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pulkit/composition2/Lamp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -269,26 +261,34 @@
     <entry file="file://$PROJECT_DIR$/src/com/pulkit/composition2/Wall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pulkit/composition2/Bed.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pulkit/composition2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+        <state relative-caret-position="198">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pulkit/composition2/Bedroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="392">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pulkit/composition2/Bed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>

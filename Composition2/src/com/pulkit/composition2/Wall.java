@@ -5,7 +5,7 @@ public class Wall {
 
     public Wall(int dimension) {
         this.dimension = dimension;
-
+        wallContructor();
     }
     public void wallContructor(){
         System.out.println("contructing wall of" + this.dimension);
