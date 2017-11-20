@@ -138,6 +138,12 @@ public class Main {
         System.out.println(holden.startEngine());
         System.out.println(holden.accelerate());
         System.out.println(holden.brake());
+
+        Car car1 = new Ford(8, "Base car");
+        System.out.println(car1.startEngine());
+        System.out.println(car1.accelerate());
+        System.out.println(car1.brake());
+
     }
 
 
