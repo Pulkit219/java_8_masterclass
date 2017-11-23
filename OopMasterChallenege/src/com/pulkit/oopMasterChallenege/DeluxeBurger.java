@@ -2,10 +2,13 @@ package com.pulkit.oopMasterChallenege;
 
 public class DeluxeBurger extends Hamburger {
 
-    public DeluxeBurger() {
-        super("Deluxe", "Sausage & Bacon", 14.54, "White");
+    private double price;
+
+    public DeluxeBurger(double price) {
+        super("Deluxe", "Sausage & Bacon", price, "White");
         super.addHamburgerAddition1("Chips", 2.75);
         super.addHamburgerAddition2("Drink", 1.81);
+        this.price =price;
     }
 
     @Override
@@ -28,5 +31,8 @@ public class DeluxeBurger extends Hamburger {
         System.out.println("Cannot not add additional items to a deluxe burger");
     }
 
-
+public double getprice()
+{
+    return this.price;
+}
 }

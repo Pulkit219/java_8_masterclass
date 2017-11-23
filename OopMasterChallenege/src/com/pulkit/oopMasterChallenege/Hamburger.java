@@ -71,4 +71,9 @@ public class Hamburger {
         return hamburgerPrice;
     }
 
+    public String getmeat()
+    {
+        return this.meat;
+    }
+
 }

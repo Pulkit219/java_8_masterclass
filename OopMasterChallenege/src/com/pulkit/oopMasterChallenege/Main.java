@@ -48,10 +48,11 @@ public class Main {
         healthyBurger.addHealthAddition1("Lentils", 3.41);
         System.out.println("Total Healthy Burger price is  " + healthyBurger.itemizeHamburger());
 
-        DeluxeBurger db = new DeluxeBurger();
+        DeluxeBurger db = new DeluxeBurger(44.2);
         db.addHamburgerAddition3("Should not do this", 50.53);
         db.itemizeHamburger();
-
+        System.out.println(db.getprice());
+        System.out.println(db.getmeat());
 
 
 
