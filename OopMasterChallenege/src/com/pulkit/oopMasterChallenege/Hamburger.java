@@ -61,6 +61,7 @@ public class Hamburger {
         if(this.addition3Name != null) {
             hamburgerPrice += this.addition3Price;
             System.out.println("Added " + this.addition3Name + " for an extra " + this.addition3Price);
+
         }
         if(this.addition4Name != null) {
             hamburgerPrice += this.addition4Price;
@@ -69,4 +70,5 @@ public class Hamburger {
 
         return hamburgerPrice;
     }
+
 }

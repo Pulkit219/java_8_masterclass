@@ -2,6 +2,8 @@ package com.pulkit.oopMasterChallenege;
 
 public class Main {
 
+
+
     public static void main(String[] args) {
         // The purpose of the application is to help a ficticious company called Bills Burgers to manage
         // their process of selling hamburgers.
@@ -29,16 +31,16 @@ public class Main {
         // plus all additionals, each showing the addition name, and addition price, and a grand total for the
         // burger
         // For the two additional classes this may require you to be looking at the base class for pricing and then
+
+
         // adding totals onto that.
 
         Hamburger hamburger = new Hamburger("Basic", "Sausage", 3.56, "White");
         double price = hamburger.itemizeHamburger();
         hamburger.addHamburgerAddition1("Tomato", 0.27);
         hamburger.addHamburgerAddition2("Lettuce", 0.75);
-        hamburger.addHamburgerAddition3("Cheese", 1.13);
-        hamburger.addHamburgerAddition3("Cheese", 1.13);
-        hamburger.addHamburgerAddition3("Cheese", 1.13);
-        hamburger.addHamburgerAddition3("Cheese", 1.13);
+
+
         System.out.println("Total Burger price is " + hamburger.itemizeHamburger());
 
         HealthyBurger healthyBurger = new HealthyBurger("Bacon", 5.67);
@@ -49,6 +51,9 @@ public class Main {
         DeluxeBurger db = new DeluxeBurger();
         db.addHamburgerAddition3("Should not do this", 50.53);
         db.itemizeHamburger();
+
+
+
 
 
 

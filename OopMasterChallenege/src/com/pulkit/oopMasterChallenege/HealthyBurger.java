@@ -9,6 +9,7 @@ public class HealthyBurger extends Hamburger {
     private double healthyExtra2Price;
 
     public HealthyBurger(String meat, double price) {
+
         super("Healthy", meat, price, "Brown rye");
     }
 
@@ -36,5 +37,6 @@ public class HealthyBurger extends Hamburger {
 
         return hamburgerPrice;
     }
+
 }
 
