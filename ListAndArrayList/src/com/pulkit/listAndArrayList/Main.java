@@ -9,8 +9,9 @@ public class Main {
     public static void main(String[] args) {
         boolean quit = false;
         int choice = 0;
-        printInstructions();
+
         while (!quit) {
+            printInstructions();
             System.out.println("Enter your choice: ");
             choice = scanner.nextInt();
             scanner.nextLine();
@@ -36,6 +37,11 @@ public class Main {
                     break;
                 case 6:
                     quit = true;
+                    break;
+
+                default:
+                    System.out.println("An invalid choice has been entered");
+                    printInstructions();
                     break;
             }
         }
