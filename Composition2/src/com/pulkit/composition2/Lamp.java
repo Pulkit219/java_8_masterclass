@@ -10,6 +10,6 @@ public class Lamp {
     }
 
     public void lampReady(){
-        System.out.println("lamp is ready powered on " +  this.powerOn + " has A Battery" + this.battery);
+        System.out.println("lamp is ready powered on " +  this.powerOn + " has a Battery " + this.battery);
     }
 }
